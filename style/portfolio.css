@@ -9,6 +9,7 @@ body {
   font-family: var(--secondary-font-family);
   font-weight: bold;
   color: black;
+  text-align: center;
 }
 
 h2 {
