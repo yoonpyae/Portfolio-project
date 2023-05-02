@@ -5,7 +5,7 @@
   --secondary-font-family: "Poppins", sans-serif;
 }
 
-body {
+.hero body {
   font-family: var(--secondary-font-family);
   font-weight: bold;
   color: black;
@@ -49,6 +49,29 @@ p {
   line-height: 2;
 }
 
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-family: var(--heading-font-family);
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--secondary-font-family);
+}
+
+.about-section p {
+  opacity: 0.8;
+  font-family: var(--secondary-font-family);
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -87,6 +110,11 @@ p {
   }
 
   .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-section {
     padding: 0;
     text-align: center;
   }
