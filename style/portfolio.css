@@ -98,14 +98,43 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+nav {
+  padding: 10px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+.logo {
+  max-width: 150px;
+}
 
 @media (max-width: 900px) {
-  h1 {
+  .hero h1 {
     font-size: 44px;
     line-height: 2;
   }
 
-  h2 {
+  .hero h2 {
     font-size: 44px;
   }
 
@@ -121,5 +150,13 @@ p {
   .content-container {
     padding: 0;
     text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  .logo_small {
+    max-width: 150px;
   }
 }
