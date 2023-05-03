@@ -12,7 +12,8 @@
   text-align: center;
 }
 
-h2 {
+h2,
+h4 {
   font-family: var(--heading-font-family);
 }
 
@@ -125,7 +126,46 @@ nav li.active a {
 }
 
 .logo {
-  max-width: 150px;
+  max-height: 40px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #272142;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
 
 @media (max-width: 900px) {
@@ -154,9 +194,5 @@ nav li.active a {
 
   nav a {
     font-size: 14px;
-  }
-
-  .logo_small {
-    max-width: 150px;
   }
 }
